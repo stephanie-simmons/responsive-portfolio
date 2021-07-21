@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #15c0a6;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 300px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1.text-white {
+  font-size: 96px;
+}
+
+h2.text-white {
+  font-size: 48px;
+}
+
+h3.text-white {
+  font-size: 24px;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.intro {
+  padding-top: 100px;
+  padding-bottom: 300px;
+  padding-left: 30px;
+  background-image: url("https://i.imgur.com/jtpB52b.jpg");
+  background-attachment: fixed;
+  height: 775px;
+  background-size: cover;
+}
+
+.featured-work {
+  font-size: 64px;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 50px;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.primary-link:hover {
+  text-decoration: none;
+  color: #007462;
+  background: var(--secondary-color);
+  border: 1px solid #007462;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  max-width: 30px;
+}
+
+.logotype {
+  margin-left: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  color: #15c0a6;
+}
