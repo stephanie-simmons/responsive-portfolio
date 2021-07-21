@@ -112,3 +112,18 @@ h3.text-white {
   font-weight: bold;
   color: #15c0a6;
 }
+
+@media (max-width: 576px) {
+  .small-paragraph {
+    display: none;
+  }
+
+  .content-column {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .small-heading {
+    text-align: center;
+  }
+}
