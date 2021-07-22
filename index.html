@@ -10,6 +10,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <title>Document</title>
  
@@ -54,7 +55,7 @@
 
 </section>
 
-<section id="work">
+<section id="work" class="a.scroll">
     <h1 class="featured-work sticky-top bg-white pb-3 shadow">
         Featured Work
     </h1>
@@ -144,5 +145,25 @@
         </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+        $("a.scroll").on('click', function(event) {
+
+            if (this.has !== "800") {
+                event.preventDefault();
+
+                var has = this.hash;
+
+                $('html, body').animate({
+                    scrollTop: $(hash).offest().top
+                }, 800, function() {
+                    window.location.hash = hash;
+                });
+
+            }
+        });
+    });
+</script>
 </body>
 </html>
