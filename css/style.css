@@ -130,6 +130,7 @@ h3.text-white {
     background-image: url("https://i.imgur.com/NlCF0it.jpg?1");
     background-attachment: fixed;
     background-size: contain;
+    height: 700px;
   }
 }
 
