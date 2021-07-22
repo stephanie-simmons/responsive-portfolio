@@ -118,12 +118,18 @@ h3.text-white {
     display: none;
   }
 
+  .small-heading {
+    font-size: 36px;
+  }
+
+  .featured-work {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 800px) {
   .content-column {
     display: flex;
     justify-content: space-between;
-  }
-
-  .small-heading {
-    text-align: center;
   }
 }
