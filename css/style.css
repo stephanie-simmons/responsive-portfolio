@@ -125,6 +125,12 @@ h3.text-white {
   .featured-work {
     font-size: 44px;
   }
+
+  .intro {
+    background-image: url("https://i.imgur.com/33AlGgY.png?1");
+    background-attachment: fixed;
+    background-size: contain;
+  }
 }
 
 @media (max-width: 800px) {
@@ -135,11 +141,5 @@ h3.text-white {
 
   h1.text-white {
     font-size: 64px;
-  }
-
-  .intro {
-    background-image: url("https://i.imgur.com/33AlGgY.png?1");
-    background-attachment: fixed;
-    background-size: contain;
   }
 }
