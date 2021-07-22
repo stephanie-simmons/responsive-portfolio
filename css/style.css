@@ -132,4 +132,8 @@ h3.text-white {
     display: flex;
     justify-content: space-between;
   }
+
+  .intro {
+    width: 100%;
+  }
 }
