@@ -133,7 +133,12 @@ h3.text-white {
     justify-content: space-between;
   }
 
+  h1.text-white {
+    font-size: 64px;
+  }
+
   .intro {
-    width: 100%;
+    background-image: url("https://i.imgur.com/33AlGgY.png?1");
+    background-attachment: fixed;
   }
 }
