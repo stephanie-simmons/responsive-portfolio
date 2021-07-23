@@ -84,16 +84,16 @@ h3 {
 }
 
 @media (max-width: 576px) {
-  .small-paragraph {
-    display: none;
-  }
-
   .small-heading {
     font-size: 36px;
   }
 
   .featured-work {
     font-size: 44px;
+  }
+
+  .intro h2 {
+    font-size: 24px;
   }
 
   .intro {
