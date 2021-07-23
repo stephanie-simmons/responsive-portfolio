@@ -31,7 +31,7 @@ h3 {
   background-attachment: fixed;
   height: 775px;
   background-size: cover;
-  line-height: 300%;
+  line-height: 2;
 }
 
 .intro h1 {
@@ -83,6 +83,17 @@ h3 {
   color: #15c0a6;
 }
 
+@media (max-width: 800px) {
+  .content-column {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro h1 {
+    font-size: 64px;
+  }
+}
+
 @media (max-width: 576px) {
   .small-heading {
     font-size: 36px;
@@ -97,7 +108,7 @@ h3 {
   }
 
   .intro h2 {
-    font-size: 24px;
+    font-size: 20px;
   }
 
   .intro {
@@ -105,16 +116,5 @@ h3 {
     background-attachment: fixed;
     background-size: contain;
     height: 660px;
-  }
-}
-
-@media (max-width: 800px) {
-  .content-column {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .intro h1 {
-    font-size: 64px;
   }
 }
