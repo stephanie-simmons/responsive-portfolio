@@ -108,7 +108,8 @@ img {
 
 @media (max-width: 1000px) {
   .overview,
-  .process {
+  .process,
+  .conclusions {
     padding-left: 0;
     padding-right: 0;
   }
