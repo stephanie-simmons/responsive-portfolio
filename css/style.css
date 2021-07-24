@@ -13,20 +13,20 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  margin-top: 300px;
-  font-family: var(--body-font-family) !important;
-}
-
 h1,
 h2 {
   font-family: var(--heading-font-family) !important;
 }
 
+body {
+  margin-top: 300px;
+  font-family: var(--body-font-family) !important;
+}
+
 h3,
 h4 {
-  font-family: var(--body-font-family);
-  font-weight: 700;
+  font-family: var(--body-font-family) !important;
+  font-weight: 800;
 }
 
 h4 {
