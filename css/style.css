@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&family=Poppins:wght@400;500;700&family=Ultra&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap");
+
 :root {
   --primary-color: #15c0a6;
   --secondary-color: #f5f2fe;
@@ -141,6 +142,10 @@ li {
   .intro h1 {
     font-size: 64px;
   }
+
+  .interview-photo {
+    max-width: 60%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -165,5 +170,9 @@ li {
     background-attachment: fixed;
     background-size: contain;
     height: 660px;
+  }
+
+  img {
+    max-width: 80%;
   }
 }
