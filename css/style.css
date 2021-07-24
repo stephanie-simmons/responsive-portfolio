@@ -74,6 +74,17 @@ li {
   justify-content: space-evenly;
 }
 
+.hero-work {
+  padding-top: 100px;
+  padding-bottom: 300px;
+  padding-left: 30px;
+  background-image: url("https://i.imgur.com/DzGmjCQ.png");
+  background-attachment: fixed;
+  height: 775px;
+  background-size: cover;
+  line-height: 2;
+}
+
 .intro {
   padding-top: 100px;
   padding-bottom: 300px;
@@ -85,7 +96,8 @@ li {
   line-height: 2;
 }
 
-.intro h1 {
+.intro h1,
+.hero-work h1 {
   font-size: 96px;
 }
 
@@ -93,11 +105,13 @@ li {
   text-align: center;
 }
 
-.intro p {
+.intro p,
+.hero-work p {
   font-size: 48px;
 }
 
-.intro h2 {
+.intro h2,
+.hero-work h2 {
   font-size: 36px;
   font-family: var(--body-font-family) !important;
 }
