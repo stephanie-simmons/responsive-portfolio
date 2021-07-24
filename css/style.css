@@ -78,7 +78,7 @@ li {
   padding-top: 100px;
   padding-bottom: 300px;
   padding-left: 30px;
-  background-image: url("https://i.imgur.com/DzGmjCQ.png");
+  background-image: url("https://i.imgur.com/wet8WEb.jpg");
   background-attachment: fixed;
   height: 775px;
   background-size: cover;
@@ -210,11 +210,13 @@ li {
     font-size: 36px;
   }
 
-  .intro h1 {
+  .intro h1,
+  .hero-work h1 {
     font-size: 48px;
   }
 
-  .intro h2 {
+  .intro h2,
+  .hero-work h2 {
     font-size: 20px;
   }
 
@@ -223,6 +225,13 @@ li {
     background-attachment: fixed;
     background-size: contain;
     height: 660px;
+  }
+
+  .hero-work {
+    background-image: url("https://i.imgur.com/7VxE1SC.png");
+    background-attachment: fixed;
+    background-size: contain;
+    height: 700px;
   }
 
   img {
