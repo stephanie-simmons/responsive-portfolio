@@ -49,6 +49,10 @@ img {
   font-size: 96px;
 }
 
+.interviewees {
+  text-align: center;
+}
+
 .intro p {
   font-size: 48px;
 }
@@ -96,14 +100,12 @@ img {
 }
 
 .overview,
-.process {
+.process,
+.conclusions {
   padding-left: 250px;
   padding-right: 250px;
 }
 
-.interviewees {
-  text-align: center;
-}
 @media (max-width: 1000px) {
   .overview,
   .process {
