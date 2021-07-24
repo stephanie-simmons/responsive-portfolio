@@ -34,6 +34,10 @@ img {
   margin: 0 auto;
 }
 
+li {
+  padding-left: 20px;
+}
+
 .intro {
   padding-top: 100px;
   padding-bottom: 300px;
