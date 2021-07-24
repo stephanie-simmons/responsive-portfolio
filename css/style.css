@@ -23,6 +23,12 @@ h3 {
   font-family: var(--heading-font-family) !important;
 }
 
+img {
+  max-width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
 .intro {
   padding-top: 100px;
   padding-bottom: 300px;
@@ -73,6 +79,7 @@ h3 {
 
 .logo {
   max-width: 30px;
+  display: inline;
 }
 
 .logotype {
@@ -81,6 +88,23 @@ h3 {
   font-weight: bold;
   letter-spacing: 0.2rem;
   color: #15c0a6;
+}
+
+.overview,
+.process {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.interviewees {
+  text-align: center;
+}
+@media (max-width: 1000px) {
+  .overview,
+  .process {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 @media (max-width: 800px) {
