@@ -19,8 +19,13 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family) !important;
+}
+
+h4 {
+  color: var(--primary-color);
 }
 
 img {
