@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&family=Poppins:wght@400;500;700&family=Ultra&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@800;900&family=Ubuntu:wght@400;500;700&display=swap");
 
 :root {
   --primary-color: #15c0a6;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --body-font-family: "Poppins", sans-serif !important;
-  --heading-font-family: "Ultra", serif !important;
+  --body-font-family: "Ubuntu", serif !important;
+  --heading-font-family: "Playfair Display", sans-serif !important;
 }
 
 html {
