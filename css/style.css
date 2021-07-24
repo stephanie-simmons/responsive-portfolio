@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&family=Poppins:wght@400;500;700&family=Ultra&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap");
 :root {
   --primary-color: #15c0a6;
   --secondary-color: #f5f2fe;
@@ -18,10 +18,14 @@ body {
 }
 
 h1,
-h2,
+h2 {
+  font-family: var(--heading-font-family) !important;
+}
+
 h3,
 h4 {
-  font-family: var(--heading-font-family) !important;
+  font-family: var(--body-font-family);
+  font-weight: 700;
 }
 
 h4 {
@@ -110,7 +114,16 @@ li {
   padding-right: 250px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
+  .overview,
+  .process,
+  .conclusions {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 800px) {
   .overview,
   .process,
   .conclusions {
