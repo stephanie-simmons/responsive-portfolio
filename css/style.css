@@ -230,7 +230,7 @@ li {
   .hero-work {
     background-image: url("https://i.imgur.com/IWusDcX.jpg");
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
     height: 660px;
   }
 
