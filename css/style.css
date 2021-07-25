@@ -167,6 +167,12 @@ footer a:hover {
   border: 1px solid #007462;
 }
 
+.quote {
+  font-weight: 800;
+  text-align: center;
+  font-size: 36px;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
