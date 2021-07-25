@@ -92,6 +92,11 @@ li {
   background-image: url("https://i.imgur.com/QuVjchf.jpg");
 }
 
+.next-button {
+  position: relative;
+  top: 200px;
+}
+
 .intro {
   padding-top: 100px;
   padding-bottom: 300px;
@@ -145,6 +150,27 @@ li {
   color: #007462;
   background: var(--secondary-color);
   border: 1px solid #007462;
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color: #007462;
+  border: 1px solid #007462;
+}
+
+.secondary-link:hover {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
 }
 
 .logo {
