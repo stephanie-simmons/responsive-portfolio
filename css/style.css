@@ -80,6 +80,15 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 .hero-work {
   padding-top: 100px;
   padding-bottom: 300px;
