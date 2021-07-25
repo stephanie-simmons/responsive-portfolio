@@ -288,6 +288,11 @@ footer a:hover {
     padding-left: 0;
     padding-right: 0;
   }
+  .next-button {
+    position: absolute;
+    bottom: 25px;
+    width: 30%;
+  }
 }
 
 @media (max-width: 576px) {
@@ -328,6 +333,12 @@ footer a:hover {
 
   .posterwall {
     background-image: url("https://i.imgur.com/nDEcmwf.jpg");
+  }
+
+  .next-button {
+    position: absolute;
+    bottom: 50px;
+    width: 30%;
   }
 
   img {
