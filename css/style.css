@@ -75,6 +75,11 @@ li {
   justify-content: space-evenly;
 }
 
+footer {
+  padding: 0 200px 0 200px;
+  text-align: center;
+}
+
 .hero-work {
   padding-top: 100px;
   padding-bottom: 300px;
@@ -281,5 +286,14 @@ li {
 
   img {
     max-width: 90%;
+  }
+
+  footer {
+    padding: 0;
+    text-align: center;
+  }
+
+  footer h4 {
+    font-size: 18px;
   }
 }
