@@ -101,15 +101,22 @@ footer a:hover {
 
 .sync {
   background-image: url("https://i.imgur.com/wet8WEb.jpg");
+  height: 100vh;
 }
 
 .posterwall {
   background-image: url("https://i.imgur.com/QuVjchf.jpg");
+  height: 100vh;
+}
+
+.weather {
+  background-image: url("https://i.imgur.com/bcXrGPv.png");
 }
 
 .next-button {
-  position: relative;
-  top: 200px;
+  position: absolute;
+  bottom: 25px;
+  width: 15%;
 }
 
 .intro {
@@ -165,6 +172,25 @@ footer a:hover {
   color: #007462;
   background: white;
   border: 1px solid #007462;
+}
+
+.progress-indicator {
+  border-radius: 5px;
+  background: black;
+  width: 10px;
+  height: 10px;
+}
+
+.posterwall .progress-indicator {
+  background: white;
+}
+
+.active-indicator,
+.posterwall .active-indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 7px;
+  background: var(--primary-color);
 }
 
 .quote {
