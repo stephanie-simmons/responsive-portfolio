@@ -173,6 +173,10 @@ li {
   color: white;
 }
 
+.sync-preview:hover {
+  background-image: url("images/sync-preview.png");
+}
+
 .logo {
   max-width: 30px;
   display: inline;
