@@ -4,6 +4,7 @@
 :root {
   --primary-color: #15c0a6;
   --secondary-color: #f5f2fe;
+  --tertiary-color: #007462;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --body-font-family: "Ubuntu", serif !important;
   --heading-font-family: "Playfair Display", sans-serif !important;
@@ -30,7 +31,7 @@ h4 {
 }
 
 h4 {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }
 
 img {
@@ -148,7 +149,7 @@ li {
 .primary-link:hover {
   text-decoration: none;
   color: #007462;
-  background: var(--secondary-color);
+  background: white;
   border: 1px solid #007462;
 }
 
@@ -157,7 +158,7 @@ li {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  background: var(--secondary-color);
+  background: white;
   box-shadow: var(--box-shadow);
   color: #007462;
   border: 1px solid #007462;
