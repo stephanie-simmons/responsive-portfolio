@@ -75,6 +75,10 @@ li {
   justify-content: space-evenly;
 }
 
+.disabled-next-button {
+  opacity: 0.3;
+}
+
 footer {
   padding: 0 200px 0 200px;
   text-align: center;
