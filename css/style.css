@@ -58,6 +58,12 @@ li {
   font-family: var(--body-font-family) !important;
 }
 
+.contact {
+  position: absolute;
+  top: 0px;
+  right: 75px;
+}
+
 .details-row h4,
 .details-row ul,
 .details-row li {
